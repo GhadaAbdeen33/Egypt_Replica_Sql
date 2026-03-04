@@ -256,6 +256,7 @@ create Unique index Branch_Name_index on Branches(Branch_Name)
 create nonclustered index Tourguide_Name_index on Tourguide(FirstName)
 
 /*- SEQUENCE---------------------------------------------------- Order_counter---------------------------------  */
+
 CREATE SEQUENCE Order_counter
 START WITH 321322
 INCREMENT BY 1;
